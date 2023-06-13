@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+body {
+    font-family: "Chivo";
+    font-style: normal;
+    background: #121725;
+
+
+}
+
+.background {
+    background-image: url(./assets/mobile/image-host.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 136%;
+    filter: brightness(0.3);
+    position: absolute;
+    width: 100%;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#logo {
+    z-index: 1;
+    position: absolute;
+
+}
+
+.logo {
+    justify-content: center;
+    top: 62px;
+    display: flex;
+    position: relative;
+
+}
+
+.text {
+
+    gap: 16px;
+}
+
+main {
+    padding: 0 24px 0 24px;
+    z-index: 1;
+    position: absolute;
+    top: 175px;
+}
+
+h1 {
+    color: rgba(84, 230, 175, 1);
+    text-align: center;
+    font-size: 26px;
+    line-height: 38px;
+}
+
+span {
+    color: rgba(255, 255, 255, 1);
+    font-size: 26px;
+    line-height: 38px;
+    opacity: 0.8;
+}
+
+p {
+    color: #C2CBE5;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.5;
+    text-align: center;
+
+}
+
+.icon {
+    flex-direction: row;
+    gap: 23px;
+    position: relative;
+    top: 35px;
+}
+
+#spotify {
+    width: 56px;
+    height: 16px;
+}
+
+#apple-podcast {
+    width: 56px;
+    height: 16px;
+}
+
+#google {
+    width: 56px;
+    height: 16px;
+}
+
+#casts {
+    width: 56px;
+    height: 16px;
+}
+
+button {
+    border: 0;
+    border-radius: 28px;
+    width: 100%;
+    height: 56px;
+}
+
+.button-div {
+    gap: 16px;
+    margin-top: 86px;
+}
+
+#email {
+    background-color: #2C344B;
+    color: #FFFFFF;
+    height: 56px;
+    border-radius: 28px;
+    border: none;
+
+}
+
+#green-button {
+    background-color: #54E6AF;
+}
+
+input {
+    padding: 0 0 0 32px;
+}
+
+#erortext {
+    color: red;
+    position: relative;
+    left: 22px;
+}
+
+#erortext {
+    display: none;
+
+}
+
+form {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    padding: 0px 0 94px 0;
+
+}
+
+#request {
+    color: #121725;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+@media screen and (min-width:768px) {
+    .background {
+    background-image: url(./assets/tablet.jpg);
+    position: absolute;
+    right: -30px;
+    width: 63.932291666666664%;
+    mix-blend-mode: normal;
+    filter: brightness(1);
+    height: 767px;
+    
+}
+
+.logo {
+    flex-direction: row;
+    justify-content: left;
+    padding: 0 0 0 39px;
+}
+
+main {
+    background-color: #121725;
+    top: 258px;
+    width: 635px;
+    height: 509px;
+    padding: 0 24px 0 39px;
+
+}
+
+footer {
+    background-image: url(./assets/bg-pattern-dots.svg);
+    background-repeat: no-repeat;
+    bottom: -540px;
+    width: 232px;
+    height: 104px;
+    position: absolute;
+    left: 30px;
+    z-index: 1;
+}
+
+h1 {
+    margin-top: 93px;
+    text-align: left;
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    order: 2;
+    top: 0;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+}
+
+form {
+    padding: 0 0 64px 0;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+}
+
+#green-button {
+    width: 162px;
+    left: 331px;
+    position: absolute;
+    height: 46px;
+}
+
+.button-div {
+    margin: 0;
+}
+
+#email {
+    width: 427px;
+}
+
+h1 {
+    font-size: 47px;
+    line-height: 56px;
+}
+
+span {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+P {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 31px 145px 40px 0;
+    text-align: inherit;
+}
+
+#spotify {
+    width: 95.9px;
+    height: 29px;
+}
+
+#apple-podcast {
+    width: 78px;
+    height: 29px;
+}
+
+#google {
+    width: 125px;
+    height: 18px;
+}
+
+#casts {
+    width: 129px;
+    height: 26px;
+}
+#erortext{
+    position: absolute;
+    bottom: 50px;
+    padding-left: 32px;
+}
+@media screen and (min-width:1440px) {
+    .background{
+        background-image: url(./assets/desktop.jpg);
+        top: 130px;
+        right: -14px;
+        height: 640px;
+
+    }
+    main{
+        width: 723px;
+        margin: 0 0 130px 165px;
+        top: 262px;
+        padding: 0;
+    
+    }
+    footer{
+        bottom: -47px;
+        right:0;
+        left: inherit;
+
+    }
+    .logo{
+        padding: 102px 0 0 165px;
+
+    }
+    #green-button{
+        left:292px
+    }
+    }
+    
+
+}
+
+
+
+
